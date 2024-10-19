@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+.mainbox{
+    display: flex;
+}
+
+.title {
+    font-size: 95px;
+}
+
+.subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.intro-text {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../background1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width:1200px)
+{
+    .buttonContainer{
+        padding: 0 200px;
+    }
+    .title{
+        padding: 0 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title {
+      font-size: 60px;
+    }
+    .landingbutton {
+      width: 150px;
+      height: 50px;
+    }
+  }
